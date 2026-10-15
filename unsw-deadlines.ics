@@ -1,0 +1,439 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UNSW Deadlines tracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UNSW Deadlines
+X-WR-CALDESC:Quizzes\, tests\, assignments and exams from Moodle. Updated n
+ ightly.
+X-WR-TIMEZONE:Australia/Sydney
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:c1999-2a@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261012T043000Z
+DTEND:20261012T050000Z
+SUMMARY:Due: COMM1999 myPortfolio 2A (optional feedback round)
+DESCRIPTION:COMM1999 myBCom First Year Portfolio\nWeight: optional\nIf you 
+ submitted and got Satisfactory\, myPortfolio is done. If not\, 2B is your 
+ only attempt.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c1999-2b@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261106T043000Z
+DTEND:20261106T050000Z
+SUMMARY:Due: COMM1999 myPortfolio 2B (final submission)
+LOCATION:myBCom platform · Save and Submit
+DESCRIPTION:COMM1999 myBCom First Year Portfolio\nWeight: 50% · S/U\nShort
+  extension of 2 days available. Use a different source for each PLO\, from
+  first-year courses or experiences in the last 12 months. Not needed if 2A
+  came back Satisfactory.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: COMM1999 myPortfolio 2B (final submission)
+TRIGGER;VALUE=DATE-TIME:20261102T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: COMM1999 myPortfolio 2B (final submission)
+TRIGGER;VALUE=DATE-TIME:20261104T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1999-dash@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261120T043000Z
+DTEND:20261120T050000Z
+SUMMARY:Due: COMM1999 myDashboard: mandatory activities + points
+LOCATION:myBCom Dashboard
+DESCRIPTION:COMM1999 myBCom First Year Portfolio\nWeight: 50% · S/U\nNeeds
+  every mandatory activity plus at least 25 myBCom points per PLO\, includi
+ ng 10 course points. The dashboard can take up to 10 working days to updat
+ e\, so finish early.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: COMM1999 myDashboard: mandatory activities + points
+TRIGGER;VALUE=DATE-TIME:20261116T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: COMM1999 myDashboard: mandatory activities + points
+TRIGGER;VALUE=DATE-TIME:20261118T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1999-excel@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261120T043000Z
+DTEND:20261120T050000Z
+SUMMARY:Due: COMM1999 Mandatory Excel Training (Modules 1–5)
+DESCRIPTION:COMM1999 myBCom First Year Portfolio\nWeight: for myDashboard\n
+ Moodle shows 0% progress. Each module quiz (pass mark 5/10) unlocks the ne
+ xt. Because the dashboard lags up to 10 working days\, aim to finish by ab
+ out 6 Nov.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=82729
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: COMM1999 Mandatory Excel Training (Modules 1–5)
+TRIGGER;VALUE=DATE-TIME:20261116T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: COMM1999 Mandatory Excel Training (Modules 1–5)
+TRIGGER;VALUE=DATE-TIME:20261118T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-proj@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:ECON1202 Excel Project · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 10%\nWhen: Week 10 (16
+ –22 Nov) · exact time on Moodle\nCalculation-intensive problems solved 
+ in Excel. Details will be posted on Moodle.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101313
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON1202 Excel Project
+TRIGGER;VALUE=DATE-TIME:20261112T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON1202 Excel Project
+TRIGGER;VALUE=DATE-TIME:20261114T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-q10@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:ECON1202 Week 10 Quiz · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 2%\nWhen: Week 10 tutor
+ ial\n20-minute group quiz in the tutorial you are enrolled in. Make sure y
+ our name is on the group sheet\, or you only get attendance marks.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON1202 Week 10 Quiz
+TRIGGER;VALUE=DATE-TIME:20261112T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON1202 Week 10 Quiz
+TRIGGER;VALUE=DATE-TIME:20261114T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-q2@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:✓ ECON1202 Week 2 Quiz · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 2%\nMark: 1.5 / 3\nWhen
+ : Week 2 tutorial\nFinancial mathematics.\nMarked done in your tracker.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-q3@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:✓ ECON1202 Week 3 Quiz · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 2%\nMark: 2.5 / 3\nWhen
+ : Week 3 tutorial\nProbability.\nMarked done in your tracker.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-q7@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:ECON1202 Week 7 Quiz · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 2%\nWhen: Week 7 tutori
+ al\n20-minute group quiz in the tutorial you are enrolled in. Make sure yo
+ ur name is on the group sheet\, or you only get attendance marks.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON1202 Week 7 Quiz
+TRIGGER;VALUE=DATE-TIME:20261022T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON1202 Week 7 Quiz
+TRIGGER;VALUE=DATE-TIME:20261024T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-q8@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:ECON1202 Week 8 Quiz · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 2%\nWhen: Week 8 tutori
+ al\n20-minute group quiz in the tutorial you are enrolled in. Make sure yo
+ ur name is on the group sheet\, or you only get attendance marks.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON1202 Week 8 Quiz
+TRIGGER;VALUE=DATE-TIME:20261029T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON1202 Week 8 Quiz
+TRIGGER;VALUE=DATE-TIME:20261031T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-t1@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:✓ ECON1202 In-session Test 1 · this week
+TRANSP:TRANSPARENT
+LOCATION:Enrolled tutorial · 40 min
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 10%\nWhen: Your Week 5 
+ tutorial\nClosed book\, Weeks 1–3: financial maths\, probability\, matri
+ ces up to Matrices III. Bring your student ID card\, pens and an approved 
+ non-programmable calculator. Formula sheet provided\; sample test on Moodl
+ e.\nMarked done in your tracker.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101313
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1202-t2@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ECON1202 In-session Test 2 · this week
+TRANSP:TRANSPARENT
+LOCATION:Enrolled tutorial
+DESCRIPTION:ECON1202 Quantitative Analysis\nWeight: 10%\nWhen: Your Week 9 
+ tutorial\nIndividual\, in your enrolled tutorial. Bring student ID\, pens 
+ and an approved calculator.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON1202 In-session Test 2
+TRIGGER;VALUE=DATE-TIME:20261105T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON1202 In-session Test 2
+TRIGGER;VALUE=DATE-TIME:20261107T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1401-ita1@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261016T024500Z
+DTEND:20261016T031500Z
+SUMMARY:Due: ECON1401 In-Tutorial Assessment 1 (Project 1)
+LOCATION:Week 5 tutorial · first 45 min
+DESCRIPTION:ECON1401 Economic Perspectives\nWeight: 25%\nMoodle's submissio
+ n boxes for you close Fri 16 Oct 2:15pm. Upload both a Word/PDF file and a
+ n Excel file before the 45 minutes end\; one submission only. Covers Weeks
+  1–4. Bring a charged laptop with Excel working and check you can log in
+  to Moodle.
+URL:https://moodle.telt.unsw.edu.au/mod/assign/index.php?id=101364
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1401-p2@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ECON1401 Project 2 (in tutorial) · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON1401 Economic Perspectives\nWeight: 25%\nWhen: Your Week 9 
+ tutorial\nEmpirical project done in your tutorial. Details on Moodle close
+ r to the date.
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON1401 Project 2 (in tutorial)
+TRIGGER;VALUE=DATE-TIME:20261105T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON1401 Project 2 (in tutorial)
+TRIGGER;VALUE=DATE-TIME:20261107T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-ps1@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261012T122900Z
+DTEND:20261012T125900Z
+SUMMARY:✓ ECON2206 Problem Set 1
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: 7.5%*\nMoodle quiz 
+ using NBASAL.dta in Stata. It closed Mon 12 Oct and Moodle shows no attemp
+ t recorded. Outline: Problem Sets are 15% in total across two equal sets. 
+ The Moodle quiz page says 5% each\, so check with your tutor which applies
+ .\nMarked done in your tracker.
+URL:https://moodle.telt.unsw.edu.au/mod/quiz/view.php?id=8982318
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-ps2@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:ECON2206 Problem Set 2 · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: 7.5%*\nWhen: Week 1
+ 0 (16–22 Nov) · exact time on Moodle\nOpens on Moodle 10 days before it
+  is due\; materials are already up under Problem Sets. Outline: Problem Se
+ ts are 15% in total across two equal sets. The Moodle quiz page says 5% ea
+ ch\, so check with your tutor which applies.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101319
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON2206 Problem Set 2
+TRIGGER;VALUE=DATE-TIME:20261112T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON2206 Problem Set 2
+TRIGGER;VALUE=DATE-TIME:20261114T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-sw3@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261013T122900Z
+DTEND:20261013T125900Z
+SUMMARY:✓ ECON2206 Storywall Discussion Question 3
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: part of 10%\nPost y
+ our answer and reply to at least one peer. Weekly Storywall posts make up 
+ the 10% Project\, marked on participation.\nMarked done in your tracker.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101319
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-sw5@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261020T122900Z
+DTEND:20261020T125900Z
+SUMMARY:Due: ECON2206 Storywall Discussion Question 5
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: part of 10%\nEstima
+ te model (2) with water_week4.dta in Stata. Post and reply to one peer.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101319
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON2206 Storywall Discussion Question 5
+TRIGGER;VALUE=DATE-TIME:20261016T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON2206 Storywall Discussion Question 5
+TRIGGER;VALUE=DATE-TIME:20261018T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-sw6@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261103T122900Z
+DTEND:20261103T125900Z
+SUMMARY:Due: ECON2206 Storywall Discussion Question 6
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: part of 10%\nUses w
+ ater_week5.dta. Post and reply to one peer.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101319
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON2206 Storywall Discussion Question 6
+TRIGGER;VALUE=DATE-TIME:20261030T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON2206 Storywall Discussion Question 6
+TRIGGER;VALUE=DATE-TIME:20261101T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-swlater@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ECON2206 Storywall questions\, Weeks 9–10 · this week
+TRANSP:TRANSPARENT
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: part of 10%\nWhen: 
+ Weeks 9–10 · posted weekly on Moodle
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101319
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON2206 Storywall questions\, Weeks 9–10
+TRIGGER;VALUE=DATE-TIME:20261105T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON2206 Storywall questions\, Weeks 9–10
+TRIGGER;VALUE=DATE-TIME:20261107T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2206-test@unsw-deadlines.tracker
+DTSTAMP:20261015T013318Z
+LAST-MODIFIED:20261015T013318Z
+DTSTART:20261026T220000Z
+DTEND:20261026T230000Z
+SUMMARY:ECON2206 In-session Test
+LOCATION:In person · Tuesday lecture slot
+DESCRIPTION:ECON2206 Introductory Econometrics\nWeight: 25%\nMoodle's lectu
+ re schedule replaces the Tue 27 Oct 9:00–10:30 lecture with the test. MC
+ Q\, fill-in\, true/false and structured questions. Confirm the room on Moo
+ dle.
+URL:https://moodle.telt.unsw.edu.au/course/view.php?id=101319
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:In 3 days: ECON2206 In-session Test
+TRIGGER;VALUE=DATE-TIME:20261023T220000Z
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow: ECON2206 In-session Test
+TRIGGER;VALUE=DATE-TIME:20261025T220000Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
